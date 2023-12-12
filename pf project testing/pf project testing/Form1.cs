@@ -16,10 +16,13 @@ namespace pf_project_testing
 {
     public partial class Form1 : Form
     {
+        static string path = @"C:\Users\Huzyfa\source\repos\readingTesting\readingTesting\database.txt";
         List<List<String>> data = new List<List<String>>();
-        List<List<String>> read= new List<List<String>>();
+        List<List<String>> read = new List<List<String>>();
         int readCounter = 0;
         int counter = 0;
+        int printCounter = 0;
+        static string[,] Students;
         public Form1()
         {
             InitializeComponent();
@@ -110,25 +113,57 @@ namespace pf_project_testing
         private void button3_Click(object sender, EventArgs e)
         {
 
-            TextReader stream = new StreamReader("testing.txt");
+
+            int TotalRows = File.ReadAllLines(path).Length;
+            Students = new string[TotalRows, 4];
             string line = "";
+            StreamReader sr = new StreamReader(path);
+            int Row = 0;
 
+            while((line = sr.ReadLine()) != null) 
 
-            using (TextReader reader = new StringReader(stream)) 
-            { 
-                while ((line = reader.ReadLine()) != null)
+            {
+                read.Add(new List<String>());
+
+                string[] temp = line.Split(',');
+                for(int i = 0; i < temp.Length; i++) 
                 {
-                    string[] temp = line.Split(',');
-                    for (int i = 0; i < temp.Length; i++)
-                    {
-                        read[readCounter][i] = temp[i];
-                    }
-                    readCounter++;
+                    read[readCounter].Add(temp[i]);
+                    Students[Row, i] = temp[i];
                 }
+                Row++;
+                readCounter++;
             }
+            //TextReader stream = new StreamReader("testing.txt");
+            //string line = "";
 
 
-
+            //using (TextReader reader = new StringReader(stream)) 
+            //{ 
+            //    while ((line = reader.ReadLine()) != null)
+            //    {
+            //        string[] temp = line.Split(',');
+            //        for (int i = 0; i < temp.Length; i++)
+            //        {
+            //            read[readCounter][i] = temp[i];
+            //        }
+            //        readCounter++;
+            //    }
+            //}
+            for(int i = 0; i < readCounter; i++) 
+            {
+                
+                
+                    ListViewItem stud = new ListViewItem(read[i][0]);
+                    stud.SubItems.Add(read[i][1]);
+                    stud.SubItems.Add(read[i][2]);
+                    listView1.Items.Add(stud);
+                
+            }
+            //ListViewItem items = new ListViewItem(read[0][0]);
+            //items.SubItems.Add(read[0][1]);
+            //items.SubItems.Add(read[0][2]);
+            //listView1.Items.Add(items);
 
 
         }
