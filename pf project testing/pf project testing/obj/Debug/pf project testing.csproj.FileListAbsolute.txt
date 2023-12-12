@@ -1,0 +1,10 @@
+C:\Users\Huzyfa\source\repos\pf project testing\pf project testing\bin\Debug\pf project testing.exe.config
+C:\Users\Huzyfa\source\repos\pf project testing\pf project testing\bin\Debug\pf project testing.exe
+C:\Users\Huzyfa\source\repos\pf project testing\pf project testing\bin\Debug\pf project testing.pdb
+C:\Users\Huzyfa\source\repos\pf project testing\pf project testing\obj\Debug\pf project testing.csproj.AssemblyReference.cache
+C:\Users\Huzyfa\source\repos\pf project testing\pf project testing\obj\Debug\pf_project_testing.Form1.resources
+C:\Users\Huzyfa\source\repos\pf project testing\pf project testing\obj\Debug\pf_project_testing.Properties.Resources.resources
+C:\Users\Huzyfa\source\repos\pf project testing\pf project testing\obj\Debug\pf project testing.csproj.GenerateResource.cache
+C:\Users\Huzyfa\source\repos\pf project testing\pf project testing\obj\Debug\pf project testing.csproj.CoreCompileInputs.cache
+C:\Users\Huzyfa\source\repos\pf project testing\pf project testing\obj\Debug\pf project testing.exe
+C:\Users\Huzyfa\source\repos\pf project testing\pf project testing\obj\Debug\pf project testing.pdb

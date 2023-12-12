@@ -1,0 +1,7 @@
+C:\Users\Huzyfa\source\repos\readingTesting\readingTesting\bin\Debug\readingTesting.exe.config
+C:\Users\Huzyfa\source\repos\readingTesting\readingTesting\bin\Debug\readingTesting.exe
+C:\Users\Huzyfa\source\repos\readingTesting\readingTesting\bin\Debug\readingTesting.pdb
+C:\Users\Huzyfa\source\repos\readingTesting\readingTesting\obj\Debug\readingTesting.csproj.AssemblyReference.cache
+C:\Users\Huzyfa\source\repos\readingTesting\readingTesting\obj\Debug\readingTesting.csproj.CoreCompileInputs.cache
+C:\Users\Huzyfa\source\repos\readingTesting\readingTesting\obj\Debug\readingTesting.exe
+C:\Users\Huzyfa\source\repos\readingTesting\readingTesting\obj\Debug\readingTesting.pdb
