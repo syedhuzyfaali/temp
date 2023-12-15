@@ -1,0 +1,10 @@
+C:\Users\Huzyfa\source\repos\PFTestingFinal\PFTestingFinal\bin\Debug\PFTestingFinal.exe.config
+C:\Users\Huzyfa\source\repos\PFTestingFinal\PFTestingFinal\bin\Debug\PFTestingFinal.exe
+C:\Users\Huzyfa\source\repos\PFTestingFinal\PFTestingFinal\bin\Debug\PFTestingFinal.pdb
+C:\Users\Huzyfa\source\repos\PFTestingFinal\PFTestingFinal\obj\Debug\PFTestingFinal.csproj.AssemblyReference.cache
+C:\Users\Huzyfa\source\repos\PFTestingFinal\PFTestingFinal\obj\Debug\PFTestingFinal.Form1.resources
+C:\Users\Huzyfa\source\repos\PFTestingFinal\PFTestingFinal\obj\Debug\PFTestingFinal.Properties.Resources.resources
+C:\Users\Huzyfa\source\repos\PFTestingFinal\PFTestingFinal\obj\Debug\PFTestingFinal.csproj.GenerateResource.cache
+C:\Users\Huzyfa\source\repos\PFTestingFinal\PFTestingFinal\obj\Debug\PFTestingFinal.csproj.CoreCompileInputs.cache
+C:\Users\Huzyfa\source\repos\PFTestingFinal\PFTestingFinal\obj\Debug\PFTestingFinal.exe
+C:\Users\Huzyfa\source\repos\PFTestingFinal\PFTestingFinal\obj\Debug\PFTestingFinal.pdb
